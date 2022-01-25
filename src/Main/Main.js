@@ -1,14 +1,14 @@
 import React from 'react';
-import AnimalList from '../AnimalList';
+import AnimalList from '../AnimalList.js';
 import backgroundImg from '../background.png';
 import './Main.css';
 
 export default function Main(props) {
   return (
-    <main style={{ backgroundImage: `url(${backgroudImg})` }}>
+    <main style={{ backgroundImage: `url(${backgroundImg})` }}>
 
-      { props.animals.map((animal, i) => 
-        <AnimalList key={animal.name, i} name={animal.name} />)
+      { 
+        <AnimalList animals = { props.animals } />
       }
 
     </main>
