@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Main from './Main';
+import Main from './Main/Main';
 import Footer from './Footer';
+import { animals } from './data';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <header className="App-header">
         
       </header>
-      <Main />
+      <Main animals={ animals } />
       <Footer />
     </div>
   );
