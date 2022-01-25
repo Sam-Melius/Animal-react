@@ -7,9 +7,9 @@ export default function Main(props) {
   return (
     <main style={{ backgroundImage: `url(${backgroudImg})` }}>
 
-      {/* {props.animals.map{{animal, i} => 
-        AnimalList key={animal.name, i} name={animal.name} />
-        }} */}
+      { props.animals.map((animal, i) => 
+        <AnimalList key={animal.name, i} name={animal.name} />)
+      }
 
     </main>
   );
