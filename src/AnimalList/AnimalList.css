@@ -1,0 +1,8 @@
+.animal-list {
+    width: 200px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
