@@ -8,9 +8,9 @@ import Header from './Header';
 function App() {
   return (
     <div className="App">
-      <Header /> 
+      <Header name='Sam Melius Oxford' /> 
       <Main animals={ animals } />
-      <Footer />
+      <Footer email='samsjmelius@gmail.com' />
     </div>
   );
 }
